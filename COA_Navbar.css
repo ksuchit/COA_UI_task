@@ -298,26 +298,21 @@ body{
 /* contact us div */
 
 .contactUs_div{
-    /* width: 1440px; */
-    /* height: 719px; */
+    
     border-radius: 120px 0px 120px 0px;
     background: linear-gradient(169.48deg, #254AA0 6.49%, #7355C0 90.04%);
 }
 .contact_h1{
-    /* width: 1165px; */
-    height: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 200%;
+    font-size: 250%;
     line-height: 125%;
     color: #FFFFFF;
     margin-top: 5%;
 
 }
 .contact_h2{
-    /* width: 762px; */
-    height: 20px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -330,8 +325,6 @@ body{
     margin-top: 2.5%;
 }
 .contact_left1 h6{
-    /* width: 224px; */
-    height: 30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -341,8 +334,6 @@ body{
 }
 
 .contact_left1 p{
-    width: 550px;
-    height: 90px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -350,9 +341,11 @@ body{
     line-height: 160.9%;
     color: #FFFFFF;
 }
+.contact_right1{
+    padding-left: 4%;
+}
 .contact_right1 h6{
     /* width: 328px; */
-    height: 30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -363,7 +356,6 @@ body{
 }
 .contact_right1 p{
     width: 462px;
-    height: 99px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -377,11 +369,10 @@ body{
 }
 .contact_right2{
     margin-top: 2%;
-    margin-left: 8.3%;
+    margin-left: 11.5%;
 }
 .contact_right2 h6{
     width: 475px;
-    height: 30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -392,7 +383,6 @@ body{
 }
 .contact_right2 p{
     width: 473px;
-    height: 96px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -400,4 +390,333 @@ body{
     line-height: 160.9%;
     color: #FFFFFF;
 
+}
+
+.contactUs_btn{
+    margin-top: 12%;
+}
+
+@media screen and (max-width:768px) {
+    
+    .contact_h1{
+        font-size: 24px;
+        line-height: 141.9%;
+        margin-top: 15%;
+    }
+    .contact_h2{
+        width: 457px;
+    }
+    .contact_right1 p{
+        width: 550px;
+    }
+    .contact_right2 p{
+        width: 550px;
+    }
+    .contact_right1{
+        padding-left: 10%;
+    }
+    .contact_right2{
+        margin-left: 8%;
+    }
+    .contactUs_btn{
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    
+    .contact_h1{
+        width: 294px;
+        font-size: 24px;
+        line-height: 141.9%;
+        margin-top: 20%;
+    }
+    .contact_h2{
+        width: 294px;
+        margin-top: 2%;
+    }
+    .contact_left1{
+        margin-left: 7%;
+    }
+    .contact_left1 p{
+        width: 275px;
+        height: 150px;
+        
+    }
+    .contact_right1{
+        margin-top: 5%;
+    }
+    .contact_right1 h6{
+        width: 275px;
+    }
+    .contact_right1 p{
+        width: 275px;
+    }
+    .contact_right2 p{
+        width: 275px;
+    }
+    .contact_right2 h6{
+        width: 275px;
+    }
+    .contact_right1{
+        padding-left: 10%;
+    }
+    .contact_right2{
+        margin-left: 8%;
+    }
+    .contactUs_btn{
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+}
+/* check */
+
+.ckeck_div{
+    /* position: absolute; */
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(4px);
+    border-radius: 160px;
+    margin: 4% auto;
+    margin-bottom: 2%;
+    
+}
+.check_title{
+    /* position: absolute; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 170%;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #071D49;
+}
+.check_para{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.check_para button{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    background: #254AA0;
+}
+
+@media screen and (max-width:768px) {
+    
+    .check_title{
+        width: 580px;
+    }
+    .ckeck_div{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .check_title{
+        font-size: 24px;
+        width: 288px;
+    }
+    .ckeck_div{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+}
+/* Innovation percentage area  */
+.innovation_mainDiv{
+    background: linear-gradient(360deg, #E2EFFA 0%, #DCF3F0 72.92%);
+    border-radius: 80px 0px 80px 0px;
+    margin-top: 5%;
+}
+.inn_heading{
+    width: 439px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #071D49;
+
+}
+.inn_heading2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    border: 2px solid #071D49;
+    background: none;
+}
+.innovation_titles{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #071D49;
+}
+.innovation_100_title{
+    width: 285px;
+    line-height: 150.9%;
+}
+.innovation_97_title{
+    width: 232px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+}
+.innovation_50_title{
+    width: 217px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+}
+.innovation_3_title{
+    width: 255px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+}
+
+.innovation_num{
+    color: #E2EFFA ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100%;
+    text-shadow: .5px -1.5px 0 #071D49, 1.5px -1.5px 0 #071D49, -1.5px 1.5px 0 #071D49, 1.5px 1.5px 0 #071D49;
+}
+.innovation_100_num{
+    width: 214px;
+}
+.innovation_97_num{
+    width: 178px;
+}
+.innovation_50_num{
+    width: 179px;
+}
+.innovation_3_num{
+    width: 174px;
+}
+.innovation_24_num{
+    width: 195px;
+}
+
+.innovation_firstRow{
+    padding-top: 5%;
+}
+.innovation_secondRow{
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width:768px) {
+    .inn_heading{
+        width: 243px;
+        font-size: 24px;
+
+    }
+}
+
+@media screen and (max-width:425px) {
+    .inn_heading{
+        width: 281px;
+        font-size: 24px;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+}
+
+/* Therapeutic Areas */
+
+.therapeutic_main_div{
+    margin-top: 3%;
+}
+.standingImg_Div{
+    
+    background: url(professional-medical-worker-talking-to-his-assista-2022-02-02-22-51-17-utc.jpg);
+    border-radius: 0px 145px 5px 5px;
+
+}
+.standingImg{
+   /* width:fit-content;
+   height:fit-content; */
+}
+.therapeutic_left_part{
+    padding-left: 4%;
+}
+.therapeutic_left_part p{
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 141.9%;
+    color: #071D49;
+}
+.therapeutic_pre_div pre {
+    text-align: left;
+    white-space: pre-line;
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.9%;
+    color: #071D49;
+}
+
+/* certifications */
+
+.certify_heading{
+    /* width: 548px;
+    height: 45px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 141.9%;
+    text-align: center;
+    color: #071D49;
+}
+.certify_para{
+    width: 774px;
+    height: 87px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.9%;
+    text-align: center;
+    color: #071D49;
+
+}
+
+@media screen and (max-width:768px) {
+    .certify_heading{
+        font-weight: 700;
+        font-size: 24px;
+        width: 479px;
+    }
+    .certify_para{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        width: 543px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .certify_heading{
+        width: 314px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .certify_para{
+        font-weight: 400;
+        font-size: 12px;
+        width: 313px;
+    }
 }
