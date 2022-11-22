@@ -365,7 +365,7 @@ body{
 
 }
 .contact_left2{
-    
+padding-left: 0%;    
 }
 .contact_right2{
     margin-top: 2%;
@@ -535,6 +535,9 @@ body{
     border-radius: 80px 0px 80px 0px;
     margin-top: 5%;
 }
+.innovation_2nd_Div{
+    overflow-x: auto;
+}
 .inn_heading{
     width: 439px;
     font-family: 'Montserrat';
@@ -636,13 +639,16 @@ body{
 }
 .standingImg_Div{
     
-    background: url(professional-medical-worker-talking-to-his-assista-2022-02-02-22-51-17-utc.jpg);
+    /* background: url(professional-medical-worker-talking-to-his-assista-2022-02-02-22-51-17-utc.jpg); */
     border-radius: 0px 145px 5px 5px;
 
 }
 .standingImg{
    /* width:fit-content;
    height:fit-content; */
+   max-width: 150%;
+   max-height: 100%;
+   border-radius: 0px 145px 5px 5px;
 }
 .therapeutic_left_part{
     padding-left: 4%;
@@ -668,15 +674,20 @@ body{
     color: #071D49;
 }
 
-/* certifications */
-
+/* certifications and Membership */
+.certifyMember_div{
+    margin-top: 3%;
+}
+.certify_logo{
+    /* overflow-x: scroll; */
+}
 .certify_heading{
     /* width: 548px;
     height: 45px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 200%;
     line-height: 141.9%;
     text-align: center;
     color: #071D49;
@@ -687,7 +698,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 110%;
     line-height: 160.9%;
     text-align: center;
     color: #071D49;
@@ -697,12 +708,12 @@ body{
 @media screen and (max-width:768px) {
     .certify_heading{
         font-weight: 700;
-        font-size: 24px;
+        font-size: 150%;
         width: 479px;
     }
     .certify_para{
         font-weight: 500;
-        font-size: 14px;
+        font-size: 85%;
         line-height: 150%;
         width: 543px;
     }
@@ -712,24 +723,174 @@ body{
     .certify_heading{
         width: 314px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 125%;
     }
     .certify_para{
         font-weight: 400;
-        font-size: 12px;
+        font-size: 75%;
         width: 313px;
     }
 }
 
+/* success stories */
+.success_mainDiv{
+    margin-bottom: 4%;
+}
+.success_1stRow{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 200%;
+    line-height: 141.9%;
+    text-align: center;
+    color: #071D49;
+}
+.success_2ndRow{
+    max-width: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #071D49;
+} 
+
 /* news and thoughts */
 
+.newsHead_title1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 300%;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #071D49;
+}
+.newsHead_title2{
+    width: 651px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #666666;
 
+}
 
+.news2ndRow{
+    height: 40%;
+}
+.news2ndRow_left{
+    padding-left: 3%;
+    padding-top: 6%;
+}
+.news2ndRow_left_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 125%;
+    color: #071D49;
+}
+.news2ndRow_button button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: linear-gradient(256.7deg, #254AA0 3.52%, #7356C0 96.14%);
+    border-radius: 4px;
+}
+.news2ndRow_button p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 150%;
+    color: #071D49;
+}
+.news2ndRow_para{
+    width: 512px;
+    height: 72px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 150%;
+    color: #071D49;
+
+}
+.news2ndRow_link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 85%;
+    line-height: 100%;
+    color: #071D49;
+}
+
+.news_imgDetailsPart{
+    margin-top: 4%;
+}
+.news3rdRow{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.news3rdRow1stCol button{
+    width: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 20px;
+    color: #071D49;
+}
+.news3rdRow2ndCol button{
+    width: 75px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 20px;
+    color: #071D49;
+}
+.news3rdRow3rdCol button{
+    width: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 20px;
+    color: #071D49;
+}
+.news3rdRow_t1{
+    width: 79%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140%;
+    line-height: 150%;
+    color: #071D49;
+}
+.news3rdRow_t2{
+    width: 67%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70%;
+    line-height: 150%;
+    color: #071D49;
+}
 /* footer */
 
 .footer{
     background: #071D49;
 }
+
 .footer_row1{
     /* position: absolute; */
     width: 80%;
@@ -738,13 +899,46 @@ body{
     background: linear-gradient(266.53deg, #99CC33 6.57%, #3BBFB5 92.52%);
     border-radius: 160px;
 }
+.footer_row1_title{
+    /* position: absolute; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 150%;
+    color: #071D49;
+}
+.footer_row1_para{
+    /* position: absolute; */
+    width: 422px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 110%;
+    line-height: 150%;
+    color: #071D49;
+}
+
+.footer_row1_right input{
+    width: 60%;
+}
+.footer_row1_right button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
 .footer_div p{
     /* width: 155px;
     height: 18px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 75%;
     line-height: 150%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -753,13 +947,26 @@ body{
 .footer_div pre{
     text-align: left;
     white-space: pre-line;
+
     /* width: 200px;
     height: 375px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 85%;
     line-height: 150%;
     letter-spacing: -0.011em;
     color: #FFFFFF;
+}
+.footer_div button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    background: #EC398A;
+    border-radius: 4px;
+    padding: 3% 4%;
 }
